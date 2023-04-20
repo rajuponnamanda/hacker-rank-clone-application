@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button{
+    transition: transform 0.2s ease-in-out;
+    font-size:10px;
+}
+.button:hover{
+    transform: scale(1.05);
+}
+.clientImage{
+    @apply h-[30px] place-content-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 
+
+    /* transition: transform 0.2s ease-in-out; */
+
+}
+/* .clientImage:hover{
+    transform: scale(1.05);
+} */
+h1{
+  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+h3{
+    font-size:11px;
+    letter-spacing: 5px;
+    margin-top: 40px;
+    color: rgb(121, 121, 121);
+    font-weight: 400;
+}
+.card{
+    @apply h-[70vh] ;
+    margin-top: 20px;
+    
+    
+}
+ul{
+    margin-top: 20px;
+
+}
+li{
+    @apply hover:text-green-500;
+    font-size:12px;
+    color: rgb(97, 97, 97);
+    margin-top: 8px;
+    cursor:default;
+}
+h6{
+ font-size:40px;
+ font-family:Arial, Helvetica, sans-serif;
+ letter-spacing: 2px;
+font-weight:thin;
+}
